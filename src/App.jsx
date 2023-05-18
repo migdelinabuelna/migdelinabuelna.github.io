@@ -1,24 +1,18 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-
-
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
-
+import PageSidebar from './components/Sidebar/Sidebar';
 import About from './pages/About/About'
-import Resume from './pages/Resume/resume';
+import Resume from './pages/Resume/Resume';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
 
-import Sidebar from './components/Sidebar/Sidebar';
 
-function App() {
+export default function App() {
 
   return (
     <>
-     
-     <Sidebar />
+    <PageSidebar />
+
     <Routes>
       <Route path="/" element={<About />}/>
       <Route path="/resume" element={<Resume />}/>
@@ -28,6 +22,3 @@ function App() {
     </>
   );
 }
-
-
-export default App;

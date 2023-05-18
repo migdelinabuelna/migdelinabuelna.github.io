@@ -1,9 +1,7 @@
 import React from "react";
 
-function About() {
+export default function About() {
     return (
         <div><h1>ABOUT ME</h1></div>
     )
 }
-
-export default About;

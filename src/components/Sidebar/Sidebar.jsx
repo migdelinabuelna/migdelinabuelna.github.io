@@ -1,18 +1,38 @@
 import React from "react";
-// import Projects from "../Projects/Projects";
-import Resume from "../../pages/Resume/resume";
-import { Route, Routes, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import {  Icon, Menu, Sidebar } from 'semantic-ui-react'
+import './Sidebar.css'
 
 
-function Sidebar () {
+
+export default function PageSidebar() {
     return (
-        <nav className="side-bar">
-            <Link to="/projects">PROJECTS </Link>
-            <Link to="/resume">RESUME </Link> 
-            <Link to="/contact"> CONTACT ME </Link>
-         </nav>
+        <Sidebar
+          as={Menu}
+          animation='overlay'
+          icon='labeled'
+          inverted
+          vertical
+          visible
+          width='thin'
+          className="side-bar">
+        
+            <Menu.Item as='a' >
+                <Link to="/"> <Icon name='home' color="brown"/> HOME</Link>
+            </Menu.Item>
+            <Menu.Item as='a'>
+                <Link to="/projects"> <Icon name='gamepad' color="brown" />PROJECTS</Link>
+            </Menu.Item>
+            <Menu.Item as='a'>
+                <Link to="/resume"><Icon name='camera' color="brown"/>RESUME </Link>
+            </Menu.Item>
+            <Menu.Item as='a'>
+                <Link to="/contact"><Icon name='mail' color="brown"/>CONTACT ME </Link>
+            </Menu.Item>
+        </Sidebar>
+    
+
     )
 }
 
-export default Sidebar;
 
