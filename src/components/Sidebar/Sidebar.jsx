@@ -1,9 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import {  Icon, Menu, Sidebar } from 'semantic-ui-react'
+import {  Icon, Menu, MenuItem, Sidebar } from 'semantic-ui-react'
 import './Sidebar.css'
-
-
 
 export default function PageSidebar() {
     return (
@@ -16,22 +14,22 @@ export default function PageSidebar() {
           visible
           width='thin'
           className="side-bar">
-        
             <Menu.Item as='a' >
                 <Link to="/"> <Icon name='home' color="brown"/> HOME</Link>
             </Menu.Item>
-            <Menu.Item as='a'>
-                <Link to="/projects"> <Icon name='gamepad' color="brown" />PROJECTS</Link>
+            <Menu.Item>
+                <a href="https://github.com/migdelinabuelna"> <Icon name="github" color="brown"/> GITHUB</a>
             </Menu.Item>
             <Menu.Item as='a'>
-                <Link to="/resume"><Icon name='camera' color="brown"/>RESUME </Link>
+                <Link to="/projects"> <Icon name='book' color="brown" />PROJECTS</Link>
+            </Menu.Item>
+            <Menu.Item as='a'>
+                <Link to="/resume"><Icon name='file alternate outline' color="brown"/>RESUME </Link>
             </Menu.Item>
             <Menu.Item as='a'>
                 <Link to="/contact"><Icon name='mail' color="brown"/>CONTACT ME </Link>
             </Menu.Item>
         </Sidebar>
-    
-
     )
 }
 

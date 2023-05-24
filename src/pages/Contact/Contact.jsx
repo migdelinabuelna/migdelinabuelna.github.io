@@ -1,9 +1,11 @@
 import React from "react";
+import ContactForm from "../../components/Sidebar/ContactForm/ContactForm";
 
 export default function Contact() {
     return (
-        <div>
-            <h1>this is where our contact form will go </h1>
+        <div className="contact-page" style={{ maxWidth: 800 }} >
+            <h1> CONTACT ME</h1>
+            <ContactForm />
         </div>
     )
 }
