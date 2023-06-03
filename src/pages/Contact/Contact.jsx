@@ -1,11 +1,70 @@
-import React from "react";
-import ContactForm from "../../components/Sidebar/ContactForm/ContactForm";
+import React from 'react'
+import { Form, Input, TextArea, Button, Icon } from 'semantic-ui-react'
+import emailjs from "emailjs-com";
 
 export default function Contact() {
+
+  function handleSendEmail(e) {
+    e.preventDefault();
+
+emailjs.sendForm('service_5zdd1z5', 'mbportfolio_7k6y29j', e.target, '4nnCySLZcTvrQF3PU')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
+  }
+
     return (
-        <div className="contact-page" style={{ maxWidth: 800 }} >
-            <h1> CONTACT ME</h1>
-            <ContactForm />
+        <>
+        <div>
+            <a href="https://www.linkedin.com/in/migdelinabuelna/"> <Icon name="linkedin" color="brown"/> LINKEDIN</a>
         </div>
+        <Form onSubmit={(handleSendEmail)}>
+            <Form.Group widths='equal'>
+                <Form.Field
+                    id='form-input-control-first-name'
+                    control={Input}
+                    label='First name'
+                    placeholder='First name'
+                    name="first_name"
+                />
+                <Form.Field
+                    id='form-input-control-last-name'
+                    control={Input}
+                    label='Last name'
+                    placeholder='Last name'
+                    name="last_name"
+                />
+            </Form.Group>
+                <Form.Field
+                    id='form-input-control-error-email'
+                    control={Input}
+                    label='Email'
+                    placeholder='E-MAIL ADDRESS'
+                    name="email"
+                />
+                <Form.Field
+                    id='form-input-control-last-name'
+                    control={Input}
+                    label='Subject'
+                    placeholder='Subject'
+                    name="subject"
+                />
+                <Form.Field
+                    id='form-textarea-control-opinion'
+                    control={TextArea}
+                    label='MESSAGE'
+                    placeholder='Messege'
+                    name="message"
+                />
+                <Form.Field
+                    id='form-button-control-public'
+                    control={Button}
+                    content='SUBMIT'
+                />
+        </Form>
+        </>
     )
 }

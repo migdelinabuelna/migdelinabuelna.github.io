@@ -17,7 +17,7 @@ export default function Projects() {
                 </Card.Content>
                 <Card.Content textAlign="center">
                     <Card.Description>
-                        <p>Leafy is a social media application designed exclusively for plant enthusiasts, providing them with a captivating platform to showcase their remarkable plant collections on their profile page. In the bio section, users have the opportunity to share a glimpse of their growing journey and highlight their favorite plants. With each post, Leafy empowers users to share a plant of their choice, accompanied by valuable details about its care, ensuring that fellow enthusiasts can learn and grow alongside them. To enhance the culture of plants, cuttings, and seed exchange within the gardening community, users can also indicate whether they are open to trading the featured plant, by marking it with a distinctive ribbon. This innovative feature allows users to diversify their collections. Furthermore, Leafy's comment section, which accompanies each post, serves as a virtual hub where users can engage in negotiations, share knowledge, seek advice, and offer uplifting compliments to one another. Leafy is a space where the collective passion for plants can thrive.</p>
+                        <p>Leafy is a social media application designed exclusively for plant enthusiasts, providing them with a captivating platform to showcase their remarkable plant collections on their profile page. In the bio section, users have the opportunity to share a glimpse of their growing journey and highlight their favorite plants. With each post, Leafy empowers users to share a plant of their choice, accompanied by valuable details about its care, ensuring that fellow enthusiasts can learn and grow alongside them. To enhance the culture of plants, cuttings, and seed exchange within the gardening community, users can also indicate whether they are open to trading the featured plant, by marking it with a distinctive ribbon. This innovative feature allows users to diversify their collections. Furthermore, Leafy's comment section, which accompanies each post, serves as a virtual hub where users can engage in negotiations, share knowledge, seek advice, and compliment one another.</p>
                     </Card.Description>
                  </Card.Content>
             </Card>
@@ -47,8 +47,8 @@ export default function Projects() {
     </Grid.Row>
 
     <Grid.Row style={{ maxWidth: 800 }}>
-      <Grid.Column>
-      <a href="https://dull-rose-rooster-kilt.cyclic.app/">
+        <Grid.Column>
+            <a href="https://dull-rose-rooster-kilt.cyclic.app/">
             <Card fluid link>
                 <Image src='https://i.imgur.com/DHnaUN0.png' wrapped ui={false} />
                 <Card.Content>
