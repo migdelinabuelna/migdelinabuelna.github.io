@@ -14,7 +14,7 @@ export default function Projects() {
                                     LEAFY 
                                 </Card.Header>
                             </Card.Content>
-                            <Card.Content textAlign="center">
+                            <Card.Content>
                                 <Card.Description>
                                     <p>Leafy is a social media application designed exclusively for plant enthusiasts, providing them with a captivating platform to showcase their remarkable plant collections on their profile page. In the bio section, users have the opportunity to share a glimpse of their growing journey and highlight their favorite plants. With each post, Leafy empowers users to share a plant of their choice, accompanied by valuable details about its care, ensuring that fellow enthusiasts can learn and grow alongside them. To enhance the culture of plants, cuttings, and seed exchange within the gardening community, users can also indicate whether they are open to trading the featured plant, by marking it with a distinctive ribbon. This innovative feature allows users to diversify their collections. Furthermore, Leafy's comment section, which accompanies each post, serves as a virtual hub where users can engage in negotiations, share knowledge, seek advice, and compliment one another.</p>
                                 </Card.Description>
@@ -27,7 +27,7 @@ export default function Projects() {
                     <a href="https://harvest-homestead.fly.dev/">
                         <Card fluid link textAlign="center">
                         <Image src='https://i.imgur.com/bYyoZFt.png' wrapped ui={false} />
-                            <Card.Content>
+                            <Card.Content textAlign="center">
                                 <Card.Header>
                                     HARVESTHOMESTEAD 
                                 </Card.Header>
@@ -50,7 +50,7 @@ export default function Projects() {
                     <a href="https://dull-rose-rooster-kilt.cyclic.app/">
                         <Card fluid link>
                         <Image src='https://i.imgur.com/DHnaUN0.png' wrapped ui={false} />
-                            <Card.Content>
+                            <Card.Content textAlign="center">
                                 <Card.Header>
                                     PSYCHIATRY
                                 </Card.Header>
@@ -68,7 +68,7 @@ export default function Projects() {
                     <a href="https://migdelinabuelna.github.io/GAMBLER/">
                         <Card fluid link>
                         <Image src='https://i.imgur.com/8CRtkcY.png' wrapped ui={false} />
-                            <Card.Content>
+                            <Card.Content textAlign="center">
                                 <Card.Header>
                                     GAMBLER
                                 </Card.Header>

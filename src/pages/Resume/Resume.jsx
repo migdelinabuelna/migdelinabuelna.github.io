@@ -1,19 +1,17 @@
 import React from "react";
-import { Icon, Divider } from "semantic-ui-react";
+import { Icon, Divider, Container, Image } from "semantic-ui-react";
+import './Resume.css';
 
 export default function Resume() {
     return (
         <>
-        <div>
-        <a href="https://docs.google.com/document/d/1VOkuiwfgCKMy-CdN_JQnA6oMaXM37PmDxn9Znd75yYA/edit?usp=sharing"> <Icon name="google"/>RESUME</a>
-        </div>
-        <Divider />
-        <object 
-            data= "https://docs.google.com/document/d/e/2PACX-1vSe06kLU1qOGg_U2nlOk_36URzrSjqilGk11sp943G2f8x6PzjYdYN6q8MiDNa-_LksjkzECpTtjrJO/pub?embedded=true" 
-            width="900"
-            height="1000"
-            >
-        </object>
+        <Container className="resume-container">
+            <div>
+                <a href="https://docs.google.com/document/d/1VOkuiwfgCKMy-CdN_JQnA6oMaXM37PmDxn9Znd75yYA/edit?usp=sharing"> <Icon name="google" color="yellow"/>RESUME</a>
+            </div>
+            <Divider />
+            <Image src="https://i.imgur.com/W0z7ZS3.png"></Image>
+        </Container>
         </>
     )
 }

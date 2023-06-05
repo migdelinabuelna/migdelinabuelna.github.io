@@ -1,3 +1,7 @@
 .side-bar {
     background-color: rgb(235,204,171, 0.5) !important; 
 }
+
+a {
+    color: black !important;
+}

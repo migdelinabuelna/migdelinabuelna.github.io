@@ -43,7 +43,7 @@ export default function Contact() {
                     id='form-input-control-error-email'
                     control={Input}
                     label='Email'
-                    placeholder='E-MAIL ADDRESS'
+                    placeholder='E-mail Address'
                     name="email"
                 />
                 <Form.Field
@@ -56,8 +56,8 @@ export default function Contact() {
                 <Form.Field
                     id='form-textarea-control-opinion'
                     control={TextArea}
-                    label='MESSAGE'
-                    placeholder='Messege'
+                    label='Message'
+                    placeholder='Message'
                     name="message"
                 />
                 <Form.Field
