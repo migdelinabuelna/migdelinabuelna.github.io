@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css'
 import PageSidebar from './components/Sidebar/Sidebar';
 import About from './pages/About/About'
@@ -18,6 +18,7 @@ export default function App() {
       <Route path="/resume" element={<Resume />}/>
       <Route path="/projects" element={<Projects />}/>
       <Route path="/contact" element={<Contact />} />
+      <Route path="/*" element={<Navigate to="/" />} />
     </Routes>
     </>
   );
