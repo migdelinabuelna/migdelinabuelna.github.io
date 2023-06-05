@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import {  Icon, Menu, MenuItem, Sidebar } from 'semantic-ui-react'
+import { Icon, Menu, Sidebar } from 'semantic-ui-react'
 import './Sidebar.css'
 
 export default function PageSidebar() {

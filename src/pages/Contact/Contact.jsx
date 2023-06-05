@@ -1,26 +1,27 @@
 import React from 'react'
-import { Form, Input, TextArea, Button, Icon } from 'semantic-ui-react'
+import { Form, Input, TextArea, Button, Icon, Divider, Container } from 'semantic-ui-react'
 import emailjs from "emailjs-com";
+import './Contact.css'
 
 export default function Contact() {
+    
+    function handleSendEmail(e) {
+        e.preventDefault();
 
-  function handleSendEmail(e) {
-    e.preventDefault();
-
-emailjs.sendForm('service_5zdd1z5', 'mbportfolio_7k6y29j', e.target, '4nnCySLZcTvrQF3PU')
-    .then((result) => {
-        console.log(result.text);
-    }, (error) => {
-        console.log(error.text);
-    });
-    e.target.reset()
-  }
+    emailjs.sendForm('service_5zdd1z5', 'mbportfolio_7k6y29j', e.target, '4nnCySLZcTvrQF3PU')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
 
     return (
         <>
-        <div>
-            <a href="https://www.linkedin.com/in/migdelinabuelna/"> <Icon name="linkedin" color="brown"/> LINKEDIN</a>
-        </div>
+        <Container className='contact-container'>
+        <h1>GET IN TOUCH</h1>
+        <Divider/>
         <Form onSubmit={(handleSendEmail)}>
             <Form.Group widths='equal'>
                 <Form.Field
@@ -65,6 +66,11 @@ emailjs.sendForm('service_5zdd1z5', 'mbportfolio_7k6y29j', e.target, '4nnCySLZcT
                     content='SUBMIT'
                 />
         </Form>
+        <Divider/>
+        <div>
+            <a href="https://www.linkedin.com/in/migdelinabuelna/"> <Icon name="linkedin" color="brown"/> LINKEDIN</a>
+        </div>
+        </Container>
         </>
     )
 }
