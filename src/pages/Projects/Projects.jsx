@@ -3,13 +3,13 @@ import { Grid, Card, Image } from 'semantic-ui-react';
 
 export default function Projects() {
     return (
-        <Grid columns='two' centered>
-            <Grid.Row style={{ maxWidth: 800 }}  >
+        <Grid columns='two' centered >
+            <Grid.Row style={{ maxWidth: 800 }}>
                 <Grid.Column >
                     <a href="https://mig-n-plants.onrender.com/" >
-                        <Card fluid link extends >
-                        <Image src='https://i.imgur.com/y1dVEhe.png' wrapped ui={false} className="card-image"/>
-                            <Card.Content textAlign="center">
+                        <Card fluid link>
+                        <Image src='https://i.imgur.com/y1dVEhe.png' wrapped ui={false} />
+                            <Card.Content>
                                 <Card.Header>
                                     LEAFY 
                                 </Card.Header>
@@ -25,9 +25,9 @@ export default function Projects() {
 
                 <Grid.Column>
                     <a href="https://harvest-homestead.fly.dev/">
-                        <Card fluid link textAlign="center">
+                        <Card fluid link>
                         <Image src='https://i.imgur.com/bYyoZFt.png' wrapped ui={false} />
-                            <Card.Content textAlign="center">
+                            <Card.Content>
                                 <Card.Header>
                                     HARVESTHOMESTEAD 
                                 </Card.Header>
@@ -50,7 +50,7 @@ export default function Projects() {
                     <a href="https://dull-rose-rooster-kilt.cyclic.app/">
                         <Card fluid link>
                         <Image src='https://i.imgur.com/DHnaUN0.png' wrapped ui={false} />
-                            <Card.Content textAlign="center">
+                            <Card.Content>
                                 <Card.Header>
                                     PSYCHIATRY
                                 </Card.Header>
@@ -68,7 +68,7 @@ export default function Projects() {
                     <a href="https://migdelinabuelna.github.io/GAMBLER/">
                         <Card fluid link>
                         <Image src='https://i.imgur.com/8CRtkcY.png' wrapped ui={false} />
-                            <Card.Content textAlign="center">
+                            <Card.Content>
                                 <Card.Header>
                                     GAMBLER
                                 </Card.Header>
