@@ -6,4 +6,4 @@ Welcome to my portfolio website, where I showcase my work and experience as a so
 
 ## Imporvement Plans 
 
-I have some exciting improvement plans in store. First, I will be incorporating more CSS to enhance the design and create visually captivating experiences that truly reflect my creativity. To further engage visitors, I will utilize the power of JavaScript and Semantic UI to add dynamic animations that bring my site to life, providing an immersive and interactive user experience. Lastly, I am currently working on updating the sidebar to enhance navigation and streamline content organization, ensuring a seamless browsing experience.
+I have some exciting improvement plans in store. First, I will be incorporating more CSS to enhance the design and create visually captivating experiences that truly reflect my creativity. To further engage visitors, I will utilize the power of JavaScript and Semantic UI to add dynamic animations that bring my site to life, providing an immersive and interactive user experience.
