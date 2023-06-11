@@ -1,7 +1,6 @@
 import React from 'react'
 import { Form, Input, TextArea, Button, Icon, Divider, Container } from 'semantic-ui-react'
 import emailjs from "emailjs-com";
-import './Contact.css'
 
 export default function Contact() {
     
@@ -20,25 +19,25 @@ export default function Contact() {
     return (
         <>
         <Container className='contact-container'>
-        <h1>GET IN TOUCH</h1>
-        <Divider/>
-        <Form onSubmit={(handleSendEmail)}>
-            <Form.Group widths='equal'>
-                <Form.Field
-                    id='form-input-control-first-name'
-                    control={Input}
-                    label='First name'
-                    placeholder='First name'
-                    name="first_name"
-                />
-                <Form.Field
-                    id='form-input-control-last-name'
-                    control={Input}
-                    label='Last name'
-                    placeholder='Last name'
-                    name="last_name"
-                />
-            </Form.Group>
+            <h1>GET IN TOUCH</h1>
+            <Divider/>
+            <Form onSubmit={(handleSendEmail)}>
+                <Form.Group widths='equal'>
+                    <Form.Field
+                        id='form-input-control-first-name'
+                        control={Input}
+                        label='First name'
+                        placeholder='First name'
+                        name="first_name"
+                    />
+                    <Form.Field
+                        id='form-input-control-last-name'
+                        control={Input}
+                        label='Last name'
+                        placeholder='Last name'
+                        name="last_name"
+                    />
+                </Form.Group>
                 <Form.Field
                     id='form-input-control-error-email'
                     control={Input}
@@ -65,7 +64,7 @@ export default function Contact() {
                     control={Button}
                     content='SUBMIT'
                 />
-        </Form>
+            </Form>
         <Divider/>
         <div>
             <a href="https://www.linkedin.com/in/migdelinabuelna/"> <Icon name="linkedin" color="brown"/> LINKEDIN</a>

@@ -4,3 +4,12 @@
   padding: 2rem; 
   text-align: center; 
 }
+
+.sidebar {
+  width: 20% !important;
+  padding: 20px !important;
+}
+
+.content {
+  width: 80% !important;
+}

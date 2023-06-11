@@ -1,6 +1,5 @@
 import React from "react";
 import { Icon, Divider, Container, Image } from "semantic-ui-react";
-import './Resume.css';
 
 export default function Resume() {
     return (
