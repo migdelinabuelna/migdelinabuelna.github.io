@@ -1,8 +1,13 @@
 import React from "react";
-import { Grid, Card, Image } from 'semantic-ui-react';
+import { Grid, Card, Image, Icon, Divider } from 'semantic-ui-react';
 
 export default function Projects() {
     return (
+        <>
+        <div>
+            <a href="https://github.com/migdelinabuelna"> <Icon name="github" color="brown"/> GITHUB</a>
+        </div>
+        <Divider />
         <Grid columns='two' centered >
             <Grid.Row style={{ maxWidth: 800 }}>
                 <Grid.Column >
@@ -83,6 +88,7 @@ export default function Projects() {
                 </Grid.Column>
             </Grid.Row>
         </Grid>
+        </>
     );
 }
 

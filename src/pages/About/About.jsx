@@ -4,7 +4,7 @@ import { Container, Divider } from "semantic-ui-react";
 export default function About() {
     return (
         <Container className="about-container">
-            <h1>ABOUT ME</h1> 
+            <h1>MIGDELINA BUELNA</h1> 
             <Divider />
             <p>Hello, there! My name is Migdelina, and I am a multifaceted individual with a diverse range of work experiences. Throughout my career, I have gained valuable skills in hospitality, sales, customer service, and most notably, six years of experience in the healthcare industry. However, I recently made an exciting decision to pursue my passion for technology and enrolled in school to major in computer science.</p>
             <p>To further enhance my technical expertise, I completed a rigorous 12-week full stack software engineering immersive program with General Assembly. This intensive program has equipped me with a solid foundation in software development, and I am eager to apply my knowledge to real-world projects. One aspect of software development that particularly resonates with me is the opportunity to leverage my artistic eye and passion for art and visuals to create visually appealing and user-friendly interfaces.</p>

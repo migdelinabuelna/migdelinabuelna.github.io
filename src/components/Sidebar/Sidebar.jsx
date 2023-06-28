@@ -24,9 +24,6 @@ export default function PageSidebar() {
             <Menu.Item as='a'>
                 <Link to="/resume"><Icon name='file alternate outline' color="brown"/>RESUME</Link>
             </Menu.Item>
-            <Menu.Item>
-                <a href="https://github.com/migdelinabuelna"> <Icon name="github" color="brown"/> GITHUB</a>
-            </Menu.Item>
             <Menu.Item as='a'>
                 <Link to="/contact"><Icon name='mail' color="brown"/>CONTACT</Link>
             </Menu.Item>
