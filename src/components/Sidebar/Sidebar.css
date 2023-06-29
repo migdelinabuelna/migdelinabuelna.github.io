@@ -1,5 +1,8 @@
 .side-bar {
     background-color: rgb(235,204,171, 0.5) !important; 
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-wildflowers-patterned-beige-background-template_53876-115623.jpg?w=900&t=st=1688009116~exp=1688009716~hmac=3aed15740c70809b3094a0bb90a4f023c5f70f13142adcf00e5e615edc44c79c) !important;
+    background-size: cover !important;
+    background-position: top !important; 
 }
 
 a {

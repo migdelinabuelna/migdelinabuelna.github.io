@@ -18,7 +18,7 @@ export default function Contact() {
 
     return (
         <>
-        <Container className='contact-container'>
+        <Container>
             <h1>GET IN TOUCH</h1>
             <Divider/>
             <Form onSubmit={(handleSendEmail)}>
