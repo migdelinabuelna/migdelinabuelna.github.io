@@ -15,7 +15,7 @@ export default function App() {
       <Grid.Column className='sidebar'>
         <PageSidebar />
       </Grid.Column>
-      <Grid.Column className='content'  centered> 
+      <Grid.Column className='content' centered> 
         <Routes>
           <Route path="/" element={<About />}/>
           <Route path="/resume" element={<Resume />}/>

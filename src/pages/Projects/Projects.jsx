@@ -9,7 +9,7 @@ export default function Projects() {
         </div>
         <Divider />
         <Grid columns='two' centered >
-            <Grid.Row style={{ maxWidth: 800 }}>
+            <Grid.Row style={{ maxWidth: 1000 }}>
                 <Grid.Column >
                     <a href="https://mig-n-plants.onrender.com/" >
                         <Card fluid link>
@@ -50,7 +50,7 @@ export default function Projects() {
                 </Grid.Column>
             </Grid.Row>
 
-            <Grid.Row style={{ maxWidth: 800 }}>
+            <Grid.Row style={{ maxWidth: 1000 }}>
                 <Grid.Column>
                     <a href="https://dull-rose-rooster-kilt.cyclic.app/">
                         <Card fluid link>
