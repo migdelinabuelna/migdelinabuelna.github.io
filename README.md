@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website, where I showcase my work and experience as a software engineer. Built with React and Semantic UI React, this website is a testament to my passion for creating visually appealing and user-friendly web applications. Through a seamless and intuitive user interface, visitors can explore a collection of my projects, each demonstrating my expertise in relevant skills and technologies. With a focus on responsive design and modern aesthetics, this portfolio serves as a comprehensive showcase of my skills and accomplishments as a software engineer. Whether you're an employer, a potential collaborator, or simply curious about my work, I invite you to browse through my projects and learn more about my journey as a software engineer.
 
-<a href="migdelinabuelna.github.io">migdelinabuelna.github.io</a>
+<a href="https://migdelinabuelna.github.io">migdelinabuelna.github.io</a>
 
 ## Imporvement Plans 
 
